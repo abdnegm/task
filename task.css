@@ -1,0 +1,49 @@
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 1vw;
+    grid-row-gap: 1vw;
+    grid-column-gap: 1vw;
+}
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 29vw;
+    padding: 2px 16px;
+    text-align: center;
+    padding-bottom: 1vw;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+input:disabled {
+    background: white;
+    border-style: none;
+    padding: 5px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 13px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.combo {
+    font-family: "Snell Roundhand", cursive;
+    font-weight: 1000;
+    font-size: 25px;
+    display: inline-block;
+    width: 90%;
+    text-align: right;
+    color: red;
+}
